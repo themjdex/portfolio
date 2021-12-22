@@ -17,7 +17,53 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #E5E5E5;
+}
 .main {
     width: 1200px;
     margin: 0 auto;
+    background-color: #fff;
+}
+.let {
+    font-family: "Roboto-Regular";
+    font-size: 48px;
+    color: #FF0000;
+    margin: 0 5px;
+}
+.variable {
+    font-family: "Roboto-Regular";
+    font-size: 48px;
+    color: #000000;
+    margin: 0 5px;
+}
+.psevdocode {
+    font-family: "Roboto-Regular";
+    font-size: 180px;
+    color: #000000;
+}
+.my-name {
+    font-family: "Montserrat-Bold";
+    font-size: 48px;
+    color: #000000;
+    margin: 0 5px;
+}
+.who-i-am {
+    font-family: "Montserrat-Regular";
+    font-size: 36px;
+    color: #000000;
+    margin: 0 5px;
+}
+.photo img {
+    border: 2px solid #000;
+}
+.my-char {
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+    color: #000000;
+}
+.my-char-value {
+    font-family: "Montserrat-Regular";
+    font-size: 30px;
+    color: #000000;
 }
