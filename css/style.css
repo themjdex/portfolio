@@ -20,6 +20,9 @@
 body {
     background-color: #E5E5E5;
 }
+.row {
+    margin: 0;
+}
 .main {
     width: 1200px;
     margin: 0 auto;
@@ -90,4 +93,13 @@ body {
 }
 .btn-tools {
     background-color: #EB09AC;
+}
+.skills-stage {
+    font-family: "Montserrat-Regular";
+    font-size: 48px;
+    color: #000000;
+}
+.skills-values li {
+    font-family: "Prata-Regular";
+    font-size: 36px;
 }
