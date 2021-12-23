@@ -25,6 +25,9 @@ body {
     margin: 0 auto;
     background-color: #fff;
 }
+.header {
+    margin-bottom: 100px;
+}
 .let {
     font-family: "Roboto-Regular";
     font-size: 48px;
@@ -66,4 +69,25 @@ body {
     font-family: "Montserrat-Regular";
     font-size: 30px;
     color: #000000;
+}
+.btn-group button {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat-Bold";
+    /* width: 180px; */
+}
+.btn-html {
+    background-color: #FF0000;
+}
+.btn-css {
+    background-color: #BD00FF;
+}
+.btn-js {
+    background-color: #E75F13;
+}
+.btn-frameworks {
+    background-color: #3F12BD;
+}
+.btn-tools {
+    background-color: #EB09AC;
 }
