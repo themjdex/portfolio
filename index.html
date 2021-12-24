@@ -58,84 +58,104 @@
         </div>    
 
         <div class="skills">
-            <div class="row justify-content-start align-items-center">
-                <div class="col-4">
-                    <span class="let">let</span>
-                    <span class="variable">mySkills = [</span>
-                </div>
-                <div class="col-6">
-                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                        <button type="button" class="btn btn-html">HTML</button>
-                        <button type="button" class="btn btn-css">CSS</button>
-                        <button type="button" class="btn btn-js">JavaScript</button>
-                        <button type="button" class="btn btn-frameworks">Frameworks</button>
-                        <button type="button" class="btn btn-tools">Tools</button>
+            <div class="col-4">
+                <span class="let">let</span>
+                <span class="variable">mySkills =</span>
+            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true">HTML</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#css" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false">CSS</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#js" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">JavaScript</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#fw" type="button" role="tab"
+                        aria-controls="contact" aria-selected="false">Frameworks</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tl" type="button" role="tab"
+                        aria-controls="contact" aria-selected="false">Tools</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded" id="collapseHTML">
+                        <div class="col-4">
+                            <p class="skills-stage">HTML</p>
+                            <ul class="skills-values">
+                                <li>Creating sites</li>
+                                <li>Adaptive design</li>
+                                <li>SEO tuning</li>
+                                <li>Code review</li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <img src="/img/html.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-2 text-center">
-                    <span class="variable">]</span>
+                <div class="tab-pane fade" id="css" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded" id="collapseCSS">
+                        <div class="col-4">
+                            <p class="skills-stage">CSS</p>
+                            <ul class="skills-values">
+                                <li>Website design</li>
+                                <li>Animation</li>
+                                <li>Adaptive design</li>
+                                <li>Flexbox, Grid</li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <img src="/img/css.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded">
-                <div class="col-4">
-                    <p class="skills-stage">HTML</p>
-                    <ul class="skills-values">
-                        <li>Creating sites</li>
-                        <li>Adaptive design</li>
-                        <li>SEO tuning</li>
-                        <li>Code review</li>
-                    </ul>
+                <div class="tab-pane fade" id="js" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded" id="collapseJS">
+                        <div class="col-4">
+                            <p class="skills-stage">JavaScript</p>
+                            <ul class="skills-values">
+                                <li>JS fundamentals</li>
+                                <li>OOP, DOM, Async</li>
+                                <li>Patterns, data structures</li>
+                                <li>Algorithms, Big O-notation</li>
+                                <li>ECMAScript 6+</li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <img src="/img/19199360.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img src="/img/html.jpg" alt="">
+                <div class="tab-pane fade" id="fw" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded" id="collapseFW">
+                        <div class="col-4">
+                            <p class="skills-stage">Frameworks</p>
+                            <ul class="skills-values">
+                                <li>Bootstrap 5</li>
+                                <li>Vue.js</li>
+                                <li>React + Next.js</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <img src="/img/frameworks.png" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded">
-                <div class="col-4">
-                    <p class="skills-stage">CSS</p>
-                    <ul class="skills-values">
-                        <li>Website design</li>
-                        <li>Animation</li>
-                        <li>Adaptive design</li>
-                        <li>Flexbox, Grid</li>
-                    </ul>
-                </div>
-                <div class="col-3">
-                    <img src="/img/css.jpg" alt="">
-                </div>
-            </div>
-            <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded">
-                <div class="col-4">
-                    <p class="skills-stage">JavaScript</p>
-                    <ul class="skills-values">
-                        <li>JS fundamentals</li>
-                        <li>OOP, DOM, Async</li>
-                        <li>Patterns, data structures</li>
-                        <li>Algorithms, Big O-notation</li>
-                        <li>ECMAScript 6+</li>
-                    </ul>
-                </div>
-                <div class="col-3">
-                    <img src="/img/19199360.jpg" alt="">
-                </div>
-            </div>
-            <div class="row justify-content-evenly shadow-sm p-3 mb-5 bg-body rounded">
-                <div class="col-4">
-                    <p class="skills-stage">Frameworks</p>
-                    <ul class="skills-values">
-                        <li>Bootstrap 5</li>
-                        <li>Vue.js</li>
-                        <li>React + Next.js</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
-                <div class="col-6">
-                    <img src="/img/frameworks.png" alt="">
+                <div class="tab-pane fade" id="tl" role="tabpanel" aria-labelledby="contact-tab">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rem quis fugiat repellendus debitis sunt aliquid vero
+                    labore ullam quaerat, nam eius. Perspiciatis veniam animi corporis vitae, nisi quo quibusdam!
                 </div>
             </div>
         </div>
-
         <div class="projects">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, consequuntur. Sint porro ullam, quis dolorum, ipsam fugiat doloremque corrupti nobis dicta incidunt repellendus in repellat, a quasi iusto quaerat? Laboriosam voluptas hic aperiam vero esse voluptatum enim eaque atque, ullam deleniti inventore minus nisi dolorum deserunt, voluptatem labore voluptate consequatur.
         </div>

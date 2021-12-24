@@ -79,19 +79,19 @@ body {
     font-family: "Montserrat-Bold";
     /* width: 180px; */
 }
-.btn-html {
+#btn-html {
     background-color: #FF0000;
 }
-.btn-css {
+#btn-css {
     background-color: #BD00FF;
 }
-.btn-js {
+#btn-js {
     background-color: #E75F13;
 }
-.btn-frameworks {
+#btn-frameworks {
     background-color: #3F12BD;
 }
-.btn-tools {
+#btn-tools {
     background-color: #EB09AC;
 }
 .skills-stage {
