@@ -23,7 +23,7 @@ body {
 .row {
     margin: 0;
 }
-.main {
+#main {
     width: 1200px;
     margin: 0 auto;
     background-color: #fff;
@@ -72,6 +72,13 @@ body {
     font-family: "Montserrat-Regular";
     font-size: 30px;
     color: #000000;
+}
+#skills {
+    margin-bottom: 100px;
+    padding: 16px;
+}
+#skills .col-4 {
+    padding: 0 12px;
 }
 .btn-group button {
     color: #fff;
