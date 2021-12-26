@@ -82,8 +82,16 @@ body {
 }
 #projects {
     padding: 16px;
+    margin-bottom: 50px;
 }
 #projects .col-4 {
+    padding: 0 12px;
+}
+#contacts {
+    padding: 16px 16px 50px 16px;
+    
+}
+#contacts .col-5 {
     padding: 0 12px;
 }
 .btn-group button {
@@ -115,4 +123,29 @@ body {
 .skills-values li {
     font-family: "Prata-Regular";
     font-size: 36px;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts i {
+    font-size: 30px;
+    color: black;
+}
+.contacts span {
+    font-family: "Roboto-Regular";
+    font-size: 48px;
+    color: #000000;
+    margin: 0 5px;
+}
+.footer {
+    background-color: #212529;
+    color: #fff;
+    text-align: end;
+    height: 40px;
+    
+}
+.footer p{
+    padding-right: 20px;
 }
